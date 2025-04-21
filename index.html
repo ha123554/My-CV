@@ -1,112 +1,117 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" itemscope itemtype="https://schema.org/Person">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title itemprop="name">Hadeeqa Nisa - Resume</title>
     <link rel="stylesheet" href="style.css">
-    <title>Noreen Saif - Resume</title>
 </head>
 <body>
     <div class="container">
         <header>
-            <h1>Hadeeqa Nisa</h1>
-            <p>Android App Developer(Java X Flutter) </p>
+            <h1 itemprop="name">Hadeeqa Nisa</h1>
+            <p itemprop="jobTitle">Android App Developer (Java X Flutter)</p>
         </header>
-        
+
         <div class="contact-info">
-            <a href="mailto:hadeeqanisa@gmail.com">hadeeqanisa@gmail.com</a>
-            <a href="tel:+923188109721">+92 318 810 9721</a>
-            <a href="https://github.com/Noreen2323" target="_blank">GitHub</a>
-            <a href="https://www.linkedin.com/in/noreen-saif-05abb22aa/" target="_blank">LinkedIn</a>
+            <a href="mailto:hadeeqanisa@gmail.com" itemprop="email">hadeeqanisa@gmail.com</a>
+            <a href="tel:+923188109721" itemprop="telephone">+92 318 810 9721</a>
+            <a href="https://github.com/Noreen2323" target="_blank" itemprop="sameAs">GitHub</a>
+            <a href="https://www.linkedin.com/in/noreen-saif-05abb22aa/" target="_blank" itemprop="sameAs">LinkedIn</a>
         </div>
 
         <section>
-            <h2>PROFESSIONAL SUMMARY</h2>
-            <p>Android Developer with expertise in Java and XML, skilled in Firebase for authentication and real-time database management. Also I am a Flutter developer with expertise in building professional and interactive mobile applications. I specialize in creating smooth UI/UX designs, integrating animations, and managing app navigation efficiently. My work involves API integration for real-time data fetching, authentication, and seamless backend communication. I focus on delivering high-performance and scalable solutions using modern Flutter practicesPassionate about creating interactive mobile applications with intuitive UI/UX..</p>
+            <h2>Professional Summary</h2>
+            <p itemprop="description">
+                Android Developer with expertise in Java and XML, skilled in Firebase... Passionate about creating interactive mobile applications with intuitive UI/UX.
+            </p>
         </section>
 
         <section>
-            <h2>TECHNICAL SKILLS</h2>
-            <ul>
-                <li><strong>Android Development:</strong> Flutter,Java, XML, Jetpack Components</li>
-                <li><strong>Backend & Database:</strong> Firebase Authentication, Firestore, Realtime Database, APIs</li>
-                <li><strong>UI/UX Design:</strong> Canva, Figma</li>
-                <li><strong>Version Control:</strong> Git, GitHub</li>
-                <li><strong>Other Tools:</strong> RecyclerView, SharedPreferences, BottomSheet, Custom Dialogs</li>
+            <h2>Technical Skills</h2>
+            <ul itemprop="knowsAbout">
+                <li>Flutter, Java, XML, Jetpack Components</li>
+                <li>Firebase Authentication, Firestore, Realtime Database, APIs</li>
+                <li>Canva, Figma</li>
+                <li>Git, GitHub</li>
+                <li>RecyclerView, SharedPreferences, BottomSheet, Custom Dialogs</li>
             </ul>
         </section>
 
         <section>
-            <h2>WORK EXPERIENCE</h2>
-            <div>
+            <h2>Work Experience</h2>
+            <div itemscope itemtype="https://schema.org/Organization">
                 <h3>Android Developer</h3>
-                <p><strong>Freelance & Client Projects</strong> | 2024 - Present</p>
-                <ul>
-                    <li>Developed Android applications using Flutter with Handle backend through APIs.</li>
-                    <li>Integrated Strip Payment Method with Sucessful Transcations.</li>
-                    <li>Built UI/UX designs and implemented smooth navigation in mobile applications.</li>
+                <p><strong itemprop="name">Freelance & Client Projects</strong> | <time itemprop="foundingDate" datetime="2024">2024 - Present</time></p>
+                <ul itemprop="makesOffer">
+                    <li>Developed Android applications using Flutter with API backend.</li>
+                    <li>Integrated Stripe Payment Method with Successful Transactions.</li>
+                    <li>Built UI/UX designs and implemented smooth navigation.</li>
                 </ul>
             </div>
-            
-            <!--<div>
-                <h3>Graphic Designer</h3>
-                <p><strong>Super Green Sciences</strong> | 2025 - Present</p>
-                <ul>
-                    <li>Designed marketing materials, banners, and social media posts.</li>
-                    <li>Enhanced brand visibility through creative content design.</li>
-                </ul>
-            </div>-->
         </section>
 
         <section>
-            <h2>EDUCATION</h2>
-            <p><strong>Bachelor of Science in Computer Science (BSCS)</strong></p>
-            <p>University of Sargodha | 2021 - 2025</p>
-        </section>
-
-        <section>
-            <h2>PROJECTS</h2>
-            <div>
-                <h3>AI Powered Attendence System(FYP)</h3>
-                <p>I am developing an *AI-powered Attendance System* that enhances workforce management through automation and smart analytics. The system features *fingerprint and mobile device ID-based login/signup* for secure authentication. It leverages *geo-location tracking* to ensure accurate attendance marking and includes functionalities for *assigning and managing tasks, making announcements, and tracking employee performance. Using AI, the system analyzes **attendance patterns, task completion rates, and overall productivity, providing insights and **automatically suggesting bonuses and rewards* based on performance metrics. This project aims to optimize efficiency and transparency in attendance and task management..</p>
-            </div>
-            <div>
-            
-            <div>
-                <h3>Firebase Authentication App</h3>
-                <p>Developed a login/signup system with Firebase authentication using email and password verification.</p>
-            </div>
-            <div>
-                <h3>E-Commerce Android App</h3>
-                <p>Created an e-commerce app prototype with Firebase backend integration.</p>
-            </div>
-            <div>
-                <h3>Image Slider & BottomSheet UI</h3>
-                <p>Implemented image slider and BottomSheet UI for enhanced user interactions.</p>
+            <h2>Education</h2>
+            <div itemprop="alumniOf" itemscope itemtype="https://schema.org/EducationalOrganization">
+                <p><strong itemprop="name">University of Sargodha</strong> | <time datetime="2021">2021</time> - <time datetime="2025">2025</time></p>
+                <p>Bachelor of Science in Computer Science (BSCS)</p>
             </div>
         </section>
 
         <section>
-            <h2>CERTIFICATIONS</h2>
+            <h2>Projects</h2>
+
+            <div itemprop="hasOccupation" itemscope itemtype="https://schema.org/SoftwareApplication">
+                <h3 itemprop="name">AI Powered Attendance System (FYP)</h3>
+                <p itemprop="description">
+                    An AI-powered Attendance System with fingerprint login, geo-tracking, task management, and performance evaluation using AI insights.
+                </p>
+            </div>
+
+            <div itemprop="hasOccupation" itemscope itemtype="https://schema.org/SoftwareApplication">
+                <h3 itemprop="name">Firebase Authentication App</h3>
+                <p itemprop="description">Login/signup system with Firebase using email and password verification.</p>
+            </div>
+
+            <div itemprop="hasOccupation" itemscope itemtype="https://schema.org/SoftwareApplication">
+                <h3 itemprop="name">E-Commerce Android App</h3>
+                <p itemprop="description">E-commerce prototype app with Firebase backend integration.</p>
+            </div>
+
+            <div itemprop="hasOccupation" itemscope itemtype="https://schema.org/SoftwareApplication">
+                <h3 itemprop="name">Image Slider & BottomSheet UI</h3>
+                <p itemprop="description">UI enhancements with image slider and BottomSheet for better UX.</p>
+            </div>
+        </section>
+
+        <section>
+            <h2>Certifications</h2>
             <ul>
-                <li>Google Android Development Certification - 2024</li>
-                <li>Firebase for Mobile Applications - 2023</li>
-                <li>AI ML  - 2025</li>
+                <li itemprop="hasCredential" itemscope itemtype="https://schema.org/EducationalOccupationalCredential">
+                    <span itemprop="name">Google Android Development Certification - 2024</span>
+                </li>
+                <li itemprop="hasCredential" itemscope itemtype="https://schema.org/EducationalOccupationalCredential">
+                    <span itemprop="name">Firebase for Mobile Applications - 2023</span>
+                </li>
+                <li itemprop="hasCredential" itemscope itemtype="https://schema.org/EducationalOccupationalCredential">
+                    <span itemprop="name">AI & ML - 2025</span>
+                </li>
             </ul>
         </section>
 
         <section>
-            <h2>ACHIEVEMENTS</h2>
+            <h2>Achievements</h2>
             <ul>
-                <li>Developed and launched a real-world Android application.</li>
-                <li>Designed over 100+ small different Projects for learning purpose.</li>
-                <li>Received recognition for UI/UX contributions in Android app development.</li>
+                <li itemprop="award">Developed and launched a real-world Android application.</li>
+                <li itemprop="award">Designed over 100+ small different projects for learning.</li>
+                <li itemprop="award">Received recognition for UI/UX contributions.</li>
             </ul>
         </section>
 
         <section>
-            <h2>SOFT SKILLS</h2>
-            <ul>
+            <h2>Soft Skills</h2>
+            <ul itemprop="knowsAbout">
                 <li>Problem-Solving</li>
                 <li>Team Collaboration</li>
                 <li>Attention to Detail</li>
@@ -116,20 +121,20 @@
         </section>
 
         <section>
-            <h2>INTERESTS</h2>
-            <ul>
+            <h2>Interests</h2>
+            <ul itemprop="hasOccupation">
                 <li>Android Development</li>
                 <li>Firebase & Cloud Integration</li>
                 <li>UI/UX Design</li>
-                <li>Artifical Intellegence</li>
+                <li>Artificial Intelligence</li>
             </ul>
         </section>
 
         <section>
-            <h2>LANGUAGES</h2>
+            <h2>Languages</h2>
             <ul>
-                <li><strong>English:</strong> Fluent</li>
-                <li><strong>Urdu:</strong> Native</li>
+                <li><strong>English:</strong> <span itemprop="knowsLanguage">Fluent</span></li>
+                <li><strong>Urdu:</strong> <span itemprop="knowsLanguage">Native</span></li>
             </ul>
         </section>
     </div>
